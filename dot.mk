@@ -15,9 +15,9 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/samsung/hltetmo/full_hlte.mk)
+$(call inherit-product, device/samsung/hltetmo/full_hltetmo.mk)
 
-# Inherit some common AOSiP stuff.
+# Inherit some common DotOS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
 
 # Include Bootanimation configuration
