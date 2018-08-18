@@ -17,13 +17,13 @@
 
 $(call inherit-product, device/samsung/hltetmo/full_hltetmo.mk)
 
-# Inherit some common DotOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common Liquid Remix stuff.
+$(call inherit-product, vendor/liquid/config/common_full_phone.mk)
 
 # Include Bootanimation configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := hltetmo
-PRODUCT_NAME := dot_hltetmo
+PRODUCT_NAME := liquid_hltetmo
 
